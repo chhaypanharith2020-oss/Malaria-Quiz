@@ -19,9 +19,9 @@ const quizData = [
       "C. ផ្តល់ថ្នាំលេបបង្ការសម្រាប់ក្រុមប្រឈមខ្ពស់",
       "D. អប់រំសុខភាព SBC"
     ],
-    correct: 2, // Index of Option C
-    explanation: "Correct! Mass chemoprophylaxis or targeted drug administration is generally not required in areas with low receptivity due to the low potential for local transmission."
-  },
+    correct:c, // Index of Option C
+  l transmission."
+  ,
   {
     question: "3. POR – តើចំណាត់ថ្នាក់ករណីអ្វីខ្លះដែលត្រូវផ្តល់ថ្នាំលេបសមូលហភាព ឬដល់ក្រុមគោលដៅ (MDA ឬ TDA) ដើម្បីជាអន្តរាគមន៍ឆ្លើយតប?\nPOR – In which of the following case classification is conduct TDA or MDA considered for response intervention?",
     options: [
@@ -30,9 +30,8 @@ const quizData = [
       "C. បន្ទាប់ពីមានករណីឆ្លងតាមឈាមនៅក្នុងសក្តានុពលចម្លងខ្ពស់",
       "D. បន្ទាប់ពីមានចំណាត់ថ្នាក់ករណីឆ្លងពីករណីនាំចូល ឬករណីឆ្លងនៅនឹងកន្លែងនៅក្នុងសក្តានុពលចម្លងខ្ពស់ ទាប និងគ្មាន។"
     ],
-    correct: 3, // Index of Option D
-    explanation: "Correct! Response interventions such as TDA/MDA are initiated following confirmed local transmission classifications (introduced or indigenous)."
-  },
+    correct: d, 
+   
   {
     question: "4. POR – តើអ្នកណាទទួលខុសត្រូវក្នុងការចុះធ្វើការអង្កេត និងចំណាត់ថ្នាក់ករណីជំងឹគ្រុនចាញ់ឡើងវិញ?\nPOR – Who is responsible for conducting full Case Investigation and Case Classification?",
     options: [
