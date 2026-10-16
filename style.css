@@ -1,9 +1,12 @@
-/* Highlights for answers */
-.option-btn.correct-choice {
-    background-color: #d4edda !important;
-    border-color: #c3e6cb !important;
-    color: #155724 !important;
-    font-weight: bold;
+/* Custom states for quiz options */
+.option-row {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .option-btn.incorrect-choice {
