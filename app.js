@@ -40,7 +40,7 @@ const quizData = [
       "C. ក្រុមឆ្លើយតបបន្ទាន់ជំងឺគ្រុនចាញ់ ថ្នាក់ស្រុកប្រតិបត្តិ",
       "D. មណ្ឌលសុខភាព"
     ],
-    correct: 2, // Index of Option C
+    correct: c, // Index of Option C
     explanation: "Correct! The Operational District (OD) Malaria Rapid Response Team is tasked with executing complete case investigations and classifications."
   },
   {
@@ -51,7 +51,7 @@ const quizData = [
       "C. 3 ខែ",
       "D. 9 ខែ"
     ],
-    correct: 0, // Index of Option A
+    correct: a, // Index of Option A
     explanation: "Correct! The standard clinical timeline cut-off to classify a recurrent P. vivax or P. ovale infection as a relapse is 12 months."
   },
   {
@@ -62,7 +62,7 @@ const quizData = [
       "C. 7-12 ថ្ងៃ",
       "D. 10-18 ថ្ងៃ"
     ],
-    correct: 0, // Index of Option A
+    correct: a, // Index of Option A
     explanation: "Correct! The standard expected incubation period determining the likely timeframe of infection for P. vivax spans between 12 to 17 days before symptoms show."
   },
   {
@@ -73,7 +73,7 @@ const quizData = [
       "C. ករណីក្នុងស្រុក ដែលមានទំនាក់ទំនងទៅនឹងករណីឆ្លងតាមឈាម",
       "D. ករណីក្នុងស្រុក ដែលមិនមានទំនាក់ទំនងទៅនឹងករណីនាំចូល"
     ],
-    correct: 0, // Index of Option A
+    correct: a, // Index of Option A
     explanation: "Correct! An introduced case represents local transmission that can be directly traced back and linked to an imported case."
   },
   {
@@ -84,7 +84,7 @@ const quizData = [
       "C. ជាការឆ្លងនៅក្នុងស្រុកដោយគ្មានភស្តុតាងនៃករណីនាំចូល និងគ្មានទំនាក់ទំនងផ្ទាល់ទៅនឹងការឆ្លងពីករណីនាំចូល។",
       "D. ករណីជំងឺគ្រុនចាញ់ដែលត្រូវបានរកឃើញតាមរយៈការធ្វើរោគវិនិច្ឆ័យនៅតាមមូលដ្ឋានសុខាភិបាល។"
     ],
-    correct: 2, // Index of Option C
+    correct: c, // Index of Option C
     explanation: "Correct! An indigenous case means local transmission without clear evidence of outside importation or direct epidemiological links to an introduced index case."
   },
   {
@@ -95,7 +95,7 @@ const quizData = [
       "C. ថ្ងៃធ្វើរោគវិនិច្ឆ័យ ដកនឹង រយៈពេលសម្ងំនៃមេរោគ",
       "D. ថ្ងៃចេញរោគសញ្ញាចុងក្រោយ ដកនឹង ថ្ងៃធ្វើរោគវិនិច្ឆ័យ"
     ],
-    correct: 1, // Index of Option B
+    correct: b, // Index of Option B
     explanation: "Correct! The likely period of infection is calculated by subtracting the parasite's incubation period from the first date of symptom onset."
   },
   {
@@ -106,7 +106,7 @@ const quizData = [
       "C. ករណីនាំចូល",
       "D. ករណីឆ្លងនៅនឹងកន្លែង, ករណីឆ្លងពីករណីនាំចូល, ករណីនាំចូល, ករណីលាប់/រើកើតឡើងវិញ"
     ],
-    correct: 3, // Index of Option D
+    correct: d, // Index of Option D
     explanation: "Correct! All of these confirmed classifications can trigger localized Reactive Case Detection and Treatment (RACDT) actions to disrupt transmission chains."
   },
   {
@@ -117,7 +117,7 @@ const quizData = [
       "C. ករណីឆ្លងនៅនឹងកន្លែង, ករណីឆ្លងពីករណីនាំចូល, និងករណីឆ្លងតាមឈាម",
       "D. ករណីឆ្លងនៅនឹងកន្លែង, ករណីឆ្លងពីករណីនាំចូល, ករណីលាប់/រើកើតឡើងវិញ"
     ],
-    correct: 2, // Index of Option C
+    correct: c, // Index of Option C
     explanation: "Correct! Indigenous, introduced, and blood-induced infections satisfy the criteria needed to launch a full focus investigation."
   },
   {
@@ -128,7 +128,7 @@ const quizData = [
       "C. មិនមានការរកឃើញករណីលាប់/រើកើតឡើងវិញ ក្នុងរយៈពេល ១២ ខែកន្លងមកនេះ",
       "D. មិនមានការរកឃើញករណីឆ្លងតាមឈាម ក្នុងរយៈពេល ១២ ខែកន្លងមកនេះ"
     ],
-    correct: 0, // Index of Option A
+    correct: a, // Index of Option A
     explanation: "Correct! An active focus changes status to a residual non-active focus once zero local transmission cases are detected for 12 consecutive months."
   },
   {
@@ -139,7 +139,7 @@ const quizData = [
       "C. ដើម្បីកំណត់ភូមិហានិភ័យដែលកើតជំងឺគ្រុនចាញ់ឡើងវិញពីការឆ្លងពីករណីនាំចូល (Re-introduction) និងការកកើតជំងឺគ្រុនចាញ់ឡើងវិញ (Re-establishment) ដោយយោងតាមសក្តានុពលចម្លង និងហានិភ័យនៃការនាំចូល។",
       "D. ដើម្បីវាយតម្លៃប្រសិទ្ធភាពនៃថ្នាំគ្រុនចាញ់។"
     ],
-    correct: 2, // Index of Option C
+    correct: c, // Index of Option C
     explanation: "Correct! Stratification tracks down risk zones according to receptive vulnerability and importation parameters to systematically stop the parasite from re-establishing."
   },
   {
@@ -150,7 +150,7 @@ const quizData = [
       "C. បន្ទាប់ពីអនុវត្ត POR",
       "D. ចម្លើយ A & C ត្រឹមត្រូវ"
     ],
-    correct: 3, // Index of Option D
+    correct: d, // Index of Option D
     explanation: "Correct! An Operational District becomes eligible once it logs 36 months free of indigenous transmission while successfully deploying POR measures."
   },
   {
@@ -161,9 +161,7 @@ const quizData = [
       "C. បន្ទាប់ពីអនុវត្ត POR",
       "D. បន្ទាប់ពីគ្មានករណីរយៈពេល១២ខែ"
     ],
-    correct: 1, // Index of Option B
-
-
+    correct: b , // Index of Option B
     }
 ];
 
