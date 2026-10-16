@@ -8,7 +8,7 @@ const quizData = [
       "C. កំណត់ត្រា, របាយការណ៍, គោលការណ៍ណែនាំ",
       "D. ឯកសារ, ទម្រង់, ក្រដាស"
     ],
-    correct: 0, // Index of Option A
+    correct: A, // Index of Option A
     explanation: "Correct! The three primary types of documentation to retain under standard guidelines are documents, records, and reports (ឯកសារ, កំណត់ត្រា, របាយការណ៍)."
   },
   {
