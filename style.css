@@ -8,18 +8,18 @@
     cursor: pointer;
     transition: all 0.2s ease;
 }
-
-.option-btn.incorrect-choice {
-    background-color: #f8d7da !important;
-    border-color: #f5c6cb !important;
-    color: #721c24 !important;
+.option-row:hover {
+    background-color: #f8fafc;
 }
-
-/* Status message styling */
-#feedback-message {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 10px 0;
+.option-row.selected {
+    border-color: #3b82f6;
+    background-color: #eff6ff;
 }
-.text-success { color: #28a745; }
-.text-danger { color: #dc3545; }
+.option-row.correct {
+    border-color: #84cc16;
+    background-color: #f7fee7;
+}
+.option-row.incorrect {
+    border-color: #ef4444;
+    background-color: #fef2f2;
+}
